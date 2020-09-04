@@ -21,15 +21,12 @@ public:
     {
         char top = stack_v.front();
         stack_v.pop_back();
-       // cout << "stack: " << top << endl;
         return top;
     }
     char dequeueCharacter()
     {
         char temp = queue_v[queue_v.size()-1];
-        //cout << "dekhte h: " << queue_v[queue_v.begin()+queue_v.size()-1]
         queue_v.erase(queue_v.begin()+queue_v.size()-2);
-       // cout << "queue: " << temp << endl;
         return temp;
     }
     void Print()

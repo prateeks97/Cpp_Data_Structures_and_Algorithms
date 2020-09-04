@@ -7,10 +7,10 @@ using namespace std;
 void mapSTL()
 {
     map<string, int, greater<string>> M;
-    M.insert(make_pair("Prateek", 100));
+    M.insert(make_pair("Prateek", 99));
     M.insert(make_pair("Rohan", 99));
     M["Shubham"] = 98;
-    M["Piggy"] = 97;
+    M["Piggy"] = 98;
 
     for (auto &it: M){
         cout << it.first << " " << it.second << endl;
