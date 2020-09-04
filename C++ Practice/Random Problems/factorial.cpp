@@ -11,8 +11,8 @@ int main() {
     cout << accumulator << ".\n";
     }
     else if (number < 0)
-        cout << "BC positive number daal, ye defined nhi h";
+        cout << "Enter a positive Number.\n";
     else if (number >= 20)
-        cout << "Aukat se bahar h ye";
+        cout << "Too expensive to compute.\n";
     return 0;
 }
